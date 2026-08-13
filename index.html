@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plant Palette | Fresh, Flavourful, Plant-Based Dining in Ottawa</title>
+  <meta name="description" content="Plant Palette is Ottawa's favourite plant-based restaurant, serving fresh seasonal dishes for breakfast, lunch and dinner, plus custom catering." />
+ 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+ 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+ 
+  <!-- AOS (Animate On Scroll) library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+ 
+  <!-- Custom styles -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+ 
+  <!-- ============================= HEADER ============================= -->
+  <header>
+    <nav class="navbar navbar-expand-lg pp-navbar" aria-label="Primary">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Plant Palette</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catering">Catering</a></li>
+            <li class="nav-item"><a class="nav-link" href="#visit">About</a></li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a class="btn btn-reserve" href="#visit">Reserve</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+ 
+  <main id="main-content">
+ 
+    <!-- ================================================================== -->
+    <!-- ============================ HOME PAGE ============================ -->
+    <!-- ================================================================== -->
+    <div id="home">
+ 
+      <!-- ============================= HERO ============================= -->
+      <section class="pp-hero" aria-labelledby="hero-heading">
+        <svg class="pp-hero-leaf" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+          <path fill="#ffffff" d="M100 10c40 20 80 45 80 90s-40 90-80 90-80-45-80-90S60 30 100 10z"/>
+        </svg>
+        <div class="container position-relative">
+          <div class="row align-items-center">
+            <div class="col-lg-8" data-aos="fade-up">
+              <h1 id="hero-heading">
+                Fresh, Flavourful,
+                <span class="d-block pp-hero-accent">Plant-Based Dining</span>
+              </h1>
+              <p class="lead mt-3 mb-4">Ottawa's favourite plant-based restaurant. Locally sourced, seasonally inspired, made to be shared.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#menu" class="btn btn-pp-accent btn-lg px-4">View our Menu</a>
+                <a href="#visit" class="btn btn-outline-pp btn-lg px-4">Reserve a Table</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= FEATURED DISHES ============================= -->
+      <section class="pp-section pp-section-light" aria-labelledby="featured-heading">
+        <div class="container">
+          <p class="eyebrow mb-2">Featured Dishes</p>
+          <h2 id="featured-heading" class="mb-4">A taste of what's on the table</h2>
+ 
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3" data-aos="fade-up">
+              <article class="pp-dish-card">
+                <img
+                  src="https://placehold.co/400x300/8fae6f/1c2a13?text=Mushroom+Truffle+Risotto"
+                  srcset="https://placehold.co/400x300/8fae6f/1c2a13?text=Mushroom+Truffle+Risotto 400w,
+                          https://placehold.co/800x600/8fae6f/1c2a13?text=Mushroom+Truffle+Risotto 800w"
+                  sizes="(min-width: 992px) 25vw, (min-width: 768px) 50vw, 100vw"
+                  alt="Creamy arborio risotto topped with wild mushrooms and a drizzle of truffle oil" />
+                <div class="pp-dish-body">
+                  <span class="pp-badge pp-badge-vegan mb-2 d-inline-block">Vegan</span>
+                  <h3 class="h6 mb-1">Mushroom Truffle Risotto</h3>
+                  <p class="small text-body-secondary mb-2">Arborio, wild mushrooms, truffle oil</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$22</span>
+                    <a href="#menu" class="btn btn-pp-dark btn-sm">Order</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <article class="pp-dish-card">
+                <img
+                  src="https://placehold.co/400x300/c7dab0/1c2a13?text=Buddha+Power+Bowl"
+                  srcset="https://placehold.co/400x300/c7dab0/1c2a13?text=Buddha+Power+Bowl 400w,
+                          https://placehold.co/800x600/c7dab0/1c2a13?text=Buddha+Power+Bowl 800w"
+                  sizes="(min-width: 992px) 25vw, (min-width: 768px) 50vw, 100vw"
+                  alt="Colourful bowl of roasted vegetables, quinoa and tahini dressing" />
+                <div class="pp-dish-body">
+                  <span class="pp-badge pp-badge-gf mb-2 d-inline-block">GF</span>
+                  <h3 class="h6 mb-1">Buddha Power Bowl</h3>
+                  <p class="small text-body-secondary mb-2">Roasted veg, quinoa, tahini</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$18</span>
+                    <a href="#menu" class="btn btn-pp-dark btn-sm">Order</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <article class="pp-dish-card">
+                <img
+                  src="https://placehold.co/400x300/eee7d6/1c2a13?text=Avocado+Toast"
+                  srcset="https://placehold.co/400x300/eee7d6/1c2a13?text=Avocado+Toast 400w,
+                          https://placehold.co/800x600/eee7d6/1c2a13?text=Avocado+Toast 800w"
+                  sizes="(min-width: 992px) 25vw, (min-width: 768px) 50vw, 100vw"
+                  alt="Sourdough toast topped with mashed avocado and cherry tomatoes" />
+                <div class="pp-dish-body">
+                  <span class="pp-badge pp-badge-vegan mb-2 d-inline-block">Vegan</span>
+                  <h3 class="h6 mb-1">Avocado Toast &amp; Poached Egg</h3>
+                  <p class="small text-body-secondary mb-2">Sourdough, avocado, cherry tomatoes</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$14</span>
+                    <a href="#menu" class="btn btn-pp-dark btn-sm">Order</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <article class="pp-dish-card">
+                <img
+                  src="https://placehold.co/400x300/a16a3f/fbfaf6?text=Overnight+Oats"
+                  srcset="https://placehold.co/400x300/a16a3f/fbfaf6?text=Overnight+Oats 400w,
+                          https://placehold.co/800x600/a16a3f/fbfaf6?text=Overnight+Oats 800w"
+                  sizes="(min-width: 992px) 25vw, (min-width: 768px) 50vw, 100vw"
+                  alt="Overnight oats bowl topped with fresh berries and chia seeds" />
+                <div class="pp-dish-body">
+                  <span class="pp-badge pp-badge-gf mb-2 d-inline-block">GF</span>
+                  <h3 class="h6 mb-1">Overnight Oats Bowl</h3>
+                  <p class="small text-body-secondary mb-2">Oats, almond milk, fresh berries, chia seeds</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$12</span>
+                    <a href="#menu" class="btn btn-pp-dark btn-sm">Order</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= CATERING CTA ============================= -->
+      <section class="pp-section pp-section-dark text-center" aria-labelledby="home-catering-cta-heading">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7" data-aos="zoom-in">
+              <h2 id="home-catering-cta-heading" class="mb-2">Planning an Event?</h2>
+              <p class="lead mb-4">Custom catering for 20&ndash;100 guests, 100% plant-based, made for every occasion.</p>
+              <a href="#catering" class="btn btn-pp-brown btn-lg px-4">Explore Catering Services</a>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= REVIEWS ============================= -->
+      <section class="pp-section pp-section-cream" aria-labelledby="home-reviews-heading">
+        <div class="container">
+          <p class="eyebrow mb-2">Guest Reviews</p>
+          <h2 id="home-reviews-heading" class="visually-hidden">What our guests are saying</h2>
+          <div class="row g-4 mt-1">
+            <div class="col-md-6" data-aos="fade-up">
+              <blockquote class="pp-review mb-0">
+                <p class="fst-italic mb-2">&ldquo;Best vegan food in Ottawa. Always fresh and creative!&rdquo;</p>
+                <footer class="blockquote-footer">Sarah M.</footer>
+              </blockquote>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <blockquote class="pp-review mb-0">
+                <p class="fst-italic mb-2">&ldquo;Highly recommend, our event catering was flawless.&rdquo;</p>
+                <footer class="blockquote-footer">David R.</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= VISIT / RESERVE ============================= -->
+      <section id="visit" class="pp-section pp-section-light text-center" aria-labelledby="visit-heading">
+        <div class="container">
+          <h2 id="visit-heading" class="mb-3">Ready to Visit?</h2>
+          <p class="text-body-secondary mb-4">123 Sparks St, Ottawa &middot; (613) 555-0198 &middot; Mon&ndash;Fri 11am&ndash;9pm, Sat&ndash;Sun 10am&ndash;10pm</p>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="tel:16135550198" class="btn btn-pp-accent btn-lg px-4">Reserve a Table</a>
+            <a href="#menu" class="btn btn-pp-brown btn-lg px-4">Order Online</a>
+          </div>
+        </div>
+      </section>
+ 
+    </div>
+ 
+    <!-- ================================================================== -->
+    <!-- ============================ MENU PAGE ============================ -->
+    <!-- ================================================================== -->
+    <div id="menu">
+ 
+      <!-- ============================= PAGE HERO ============================= -->
+      <section class="pp-section-cream py-5" aria-labelledby="menu-page-heading">
+        <div class="container">
+          <p class="eyebrow mb-2">Our Menu</p>
+          <h1 id="menu-page-heading">Seasonal plant-based cuisine, made from local Ottawa farms</h1>
+        </div>
+      </section>
+ 
+      <!-- ============================= FILTERS ============================= -->
+      <section class="pp-section pp-section-light pb-0" aria-labelledby="filters-heading">
+        <div class="container">
+          <h2 id="filters-heading" class="visually-hidden">Filter the menu</h2>
+ 
+          <div class="row g-2 mb-3" role="group" aria-label="Filter by meal category">
+            <div class="col-4 col-md-3">
+              <button type="button" class="pp-cat-btn w-100 active" data-category-filter="breakfast" aria-pressed="true">Breakfast</button>
+            </div>
+            <div class="col-4 col-md-3">
+              <button type="button" class="pp-cat-btn w-100" data-category-filter="lunch" aria-pressed="false">Lunch</button>
+            </div>
+            <div class="col-4 col-md-3">
+              <button type="button" class="pp-cat-btn w-100" data-category-filter="dinner" aria-pressed="false">Dinner</button>
+            </div>
+          </div>
+ 
+          <div class="d-flex flex-wrap gap-2 mb-4" role="group" aria-label="Filter by dietary tag">
+            <button type="button" class="pp-filter-pill active" data-diet-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="pp-filter-pill" data-diet-filter="vegan" aria-pressed="false">Vegan</button>
+            <button type="button" class="pp-filter-pill" data-diet-filter="gf" aria-pressed="false">Gluten-Free</button>
+            <button type="button" class="pp-filter-pill" data-diet-filter="nut" aria-pressed="false">Nut-Free</button>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= MENU GRID ============================= -->
+      <section class="pp-section pp-section-light pt-0" aria-labelledby="dishes-heading">
+        <div class="container">
+          <h2 id="dishes-heading" class="visually-hidden">Dishes</h2>
+          <div class="row g-4">
+ 
+            <!-- Breakfast -->
+            <div class="col-md-6 col-lg-4 pp-dish-col" data-aos="fade-up">
+              <article class="pp-dish-card" data-category="breakfast" data-diet="vegan gf">
+                <img src="https://placehold.co/400x300/8fae6f/1c2a13?text=Avocado+Toast"
+                     srcset="https://placehold.co/400x300/8fae6f/1c2a13?text=Avocado+Toast 400w,
+                             https://placehold.co/800x600/8fae6f/1c2a13?text=Avocado+Toast 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Sourdough toast topped with mashed avocado and cherry tomatoes" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-vegan">Vegan</span>
+                    <span class="pp-badge pp-badge-gf">GF</span>
+                  </div>
+                  <h3 class="h6 mb-1">Avocado Toast &amp; Poached Egg</h3>
+                  <p class="small text-body-secondary mb-2">Sourdough, avocado, cherry tomatoes</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$14</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col" data-aos="fade-up" data-aos-delay="50">
+              <article class="pp-dish-card" data-category="breakfast" data-diet="gf">
+                <img src="https://placehold.co/400x300/c7dab0/1c2a13?text=Overnight+Oats"
+                     srcset="https://placehold.co/400x300/c7dab0/1c2a13?text=Overnight+Oats 400w,
+                             https://placehold.co/800x600/c7dab0/1c2a13?text=Overnight+Oats 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Overnight oats bowl topped with fresh berries and chia seeds" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-gf">GF</span>
+                  </div>
+                  <h3 class="h6 mb-1">Overnight Oats Bowl</h3>
+                  <p class="small text-body-secondary mb-2">Oats, almond milk, fresh berries, chia seeds</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$12</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col" data-aos="fade-up" data-aos-delay="100">
+              <article class="pp-dish-card" data-category="breakfast" data-diet="vegan nut">
+                <img src="https://placehold.co/400x300/eee7d6/1c2a13?text=Tofu+Scramble+Wrap"
+                     srcset="https://placehold.co/400x300/eee7d6/1c2a13?text=Tofu+Scramble+Wrap 400w,
+                             https://placehold.co/800x600/eee7d6/1c2a13?text=Tofu+Scramble+Wrap 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Whole wheat wrap filled with tofu scramble and spinach" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-vegan">Vegan</span>
+                    <span class="pp-badge pp-badge-nut">Nut-Free</span>
+                  </div>
+                  <h3 class="h6 mb-1">Tofu Scramble Wrap</h3>
+                  <p class="small text-body-secondary mb-2">Tofu, spinach, turmeric, whole wheat wrap</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$15</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col" data-aos="fade-up">
+              <article class="pp-dish-card" data-category="breakfast" data-diet="vegan gf nut">
+                <img src="https://placehold.co/400x300/a16a3f/fbfaf6?text=Harvest+Grain+Salad"
+                     srcset="https://placehold.co/400x300/a16a3f/fbfaf6?text=Harvest+Grain+Salad 400w,
+                             https://placehold.co/800x600/a16a3f/fbfaf6?text=Harvest+Grain+Salad 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Farro salad with roasted squash, pomegranate seeds and arugula" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-vegan">Vegan</span>
+                    <span class="pp-badge pp-badge-gf">GF</span>
+                  </div>
+                  <h3 class="h6 mb-1">Harvest Grain Salad</h3>
+                  <p class="small text-body-secondary mb-2">Farro, roasted squash, pomegranate, arugula</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$16</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <!-- Lunch -->
+            <div class="col-md-6 col-lg-4 pp-dish-col d-none" data-aos="fade-up">
+              <article class="pp-dish-card" data-category="lunch" data-diet="gf nut">
+                <img src="https://placehold.co/400x300/8fae6f/1c2a13?text=Mushroom+%26+Lentil+Soup"
+                     srcset="https://placehold.co/400x300/8fae6f/1c2a13?text=Mushroom+%26+Lentil+Soup 400w,
+                             https://placehold.co/800x600/8fae6f/1c2a13?text=Mushroom+%26+Lentil+Soup 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Bowl of hearty mushroom and lentil soup with artisan bread" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-gf">GF</span>
+                    <span class="pp-badge pp-badge-nut">Nut-Free</span>
+                  </div>
+                  <h3 class="h6 mb-1">Mushroom &amp; Lentil Soup</h3>
+                  <p class="small text-body-secondary mb-2">Hearty seasonal soup, artisan bread</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$13</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col d-none" data-aos="fade-up" data-aos-delay="50">
+              <article class="pp-dish-card" data-category="lunch" data-diet="gf">
+                <img src="https://placehold.co/400x300/c7dab0/1c2a13?text=Buddha+Power+Bowl"
+                     srcset="https://placehold.co/400x300/c7dab0/1c2a13?text=Buddha+Power+Bowl 400w,
+                             https://placehold.co/800x600/c7dab0/1c2a13?text=Buddha+Power+Bowl 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Colourful bowl of roasted vegetables, quinoa and tahini dressing" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-gf">GF</span>
+                  </div>
+                  <h3 class="h6 mb-1">Buddha Power Bowl</h3>
+                  <p class="small text-body-secondary mb-2">Roasted veg, quinoa, tahini</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$18</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col d-none" data-aos="fade-up" data-aos-delay="100">
+              <article class="pp-dish-card" data-category="lunch" data-diet="nut">
+                <img src="https://placehold.co/400x300/eee7d6/1c2a13?text=Vegan+Power+Burger"
+                     srcset="https://placehold.co/400x300/eee7d6/1c2a13?text=Vegan+Power+Burger 400w,
+                             https://placehold.co/800x600/eee7d6/1c2a13?text=Vegan+Power+Burger 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="House-made vegan burger patty with avocado on a brioche bun" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-nut">Nut-Free</span>
+                  </div>
+                  <h3 class="h6 mb-1">Vegan Power Burger</h3>
+                  <p class="small text-body-secondary mb-2">House-made patty, avocado, brioche</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$20</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <!-- Dinner -->
+            <div class="col-md-6 col-lg-4 pp-dish-col d-none" data-aos="fade-up">
+              <article class="pp-dish-card" data-category="dinner" data-diet="vegan">
+                <img src="https://placehold.co/400x300/8fae6f/1c2a13?text=Mushroom+Truffle+Risotto"
+                     srcset="https://placehold.co/400x300/8fae6f/1c2a13?text=Mushroom+Truffle+Risotto 400w,
+                             https://placehold.co/800x600/8fae6f/1c2a13?text=Mushroom+Truffle+Risotto 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Creamy arborio risotto topped with wild mushrooms and a drizzle of truffle oil" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-vegan">Vegan</span>
+                  </div>
+                  <h3 class="h6 mb-1">Mushroom Truffle Risotto</h3>
+                  <p class="small text-body-secondary mb-2">Arborio, wild mushrooms, truffle oil</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$22</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col d-none" data-aos="fade-up" data-aos-delay="50">
+              <article class="pp-dish-card" data-category="dinner" data-diet="gf nut">
+                <img src="https://placehold.co/400x300/c7dab0/1c2a13?text=Buddha+Power+Bowl"
+                     srcset="https://placehold.co/400x300/c7dab0/1c2a13?text=Buddha+Power+Bowl 400w,
+                             https://placehold.co/800x600/c7dab0/1c2a13?text=Buddha+Power+Bowl 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="Colourful bowl of roasted vegetables, quinoa and tahini dressing" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-gf">GF</span>
+                    <span class="pp-badge pp-badge-nut">Nut-Free</span>
+                  </div>
+                  <h3 class="h6 mb-1">Buddha Power Bowl</h3>
+                  <p class="small text-body-secondary mb-2">Roasted veg, quinoa, tahini</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$18</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+            <div class="col-md-6 col-lg-4 pp-dish-col d-none" data-aos="fade-up" data-aos-delay="100">
+              <article class="pp-dish-card" data-category="dinner" data-diet="nut">
+                <img src="https://placehold.co/400x300/a16a3f/fbfaf6?text=Vegan+Power+Burger"
+                     srcset="https://placehold.co/400x300/a16a3f/fbfaf6?text=Vegan+Power+Burger 400w,
+                             https://placehold.co/800x600/a16a3f/fbfaf6?text=Vegan+Power+Burger 800w"
+                     sizes="(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw"
+                     alt="House-made vegan burger patty with avocado on a brioche bun" />
+                <div class="pp-dish-body">
+                  <div class="d-flex gap-1 mb-2">
+                    <span class="pp-badge pp-badge-nut">Nut-Free</span>
+                  </div>
+                  <h3 class="h6 mb-1">Vegan Power Burger</h3>
+                  <p class="small text-body-secondary mb-2">House-made patty, avocado, brioche</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="pp-dish-price">$20</span>
+                    <button type="button" class="btn btn-pp-dark btn-sm">Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+ 
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= ORDER ONLINE CTA ============================= -->
+      <section class="pp-section pp-section-dark text-center" aria-labelledby="order-heading">
+        <div class="container">
+          <h2 id="order-heading" class="mb-3">Order Online for Pickup or Delivery</h2>
+          <a href="#" class="btn btn-pp-brown btn-lg px-4">Pickup or Delivery</a>
+        </div>
+      </section>
+ 
+    </div>
+ 
+    <!-- ================================================================== -->
+    <!-- ========================== CATERING PAGE ========================== -->
+    <!-- ================================================================== -->
+    <div id="catering">
+ 
+      <!-- ============================= PAGE HERO ============================= -->
+      <section class="pp-page-hero text-center" aria-labelledby="catering-page-heading">
+        <div class="container">
+          <h1 id="catering-page-heading">Catering for Every Occasion.</h1>
+          <p class="lead mt-2 mb-4">20&ndash;100+ guests. 100% plant-based.</p>
+          <a href="#quote" class="btn btn-pp-brown btn-lg px-4">Request a Quote</a>
+        </div>
+      </section>
+ 
+      <!-- ============================= SAMPLE MENUS ============================= -->
+      <section class="pp-section pp-section-light" aria-labelledby="menus-heading">
+        <div class="container">
+          <p class="eyebrow mb-2">Sample Menus</p>
+          <h2 id="menus-heading" class="mb-4">Downloadable menus for your event</h2>
+          <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="pp-sample-card d-flex flex-wrap justify-content-between align-items-center gap-3">
+                <div>
+                  <h3 class="h5 mb-1">Corporate Lunch Packages</h3>
+                  <p class="mb-0 fw-semibold" style="color: var(--pp-brown);">Starting from $28/person</p>
+                </div>
+                <a href="#" class="btn btn-pp-dark">Download</a>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="pp-sample-card d-flex flex-wrap justify-content-between align-items-center gap-3">
+                <div>
+                  <h3 class="h5 mb-1">Wedding Reception Menu</h3>
+                  <p class="mb-0 fw-semibold" style="color: var(--pp-brown);">Starting from $35/person</p>
+                </div>
+                <a href="#" class="btn btn-pp-dark">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= EVENT GALLERY ============================= -->
+      <section class="pp-section pp-section-cream" aria-labelledby="gallery-heading">
+        <div class="container">
+          <p class="eyebrow mb-2">Event Gallery</p>
+          <h2 id="gallery-heading" class="mb-4">A look at recent events</h2>
+          <div class="row g-3 pp-gallery">
+            <div class="col-6 col-md-3" data-aos="zoom-in">
+              <img src="https://placehold.co/400x300/2f4a22/fbfaf6?text=Buffet+Spread"
+                   srcset="https://placehold.co/400x300/2f4a22/fbfaf6?text=Buffet+Spread 400w,
+                           https://placehold.co/800x600/2f4a22/fbfaf6?text=Buffet+Spread 800w"
+                   sizes="(min-width: 768px) 25vw, 50vw"
+                   alt="Guests mingling around a plant-based buffet spread at an event" />
+            </div>
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="50">
+              <img src="https://placehold.co/400x300/8fae6f/1c2a13?text=Appetizer+Cups"
+                   srcset="https://placehold.co/400x300/8fae6f/1c2a13?text=Appetizer+Cups 400w,
+                           https://placehold.co/800x600/8fae6f/1c2a13?text=Appetizer+Cups 800w"
+                   sizes="(min-width: 768px) 25vw, 50vw"
+                   alt="Individual appetizer cups with roasted vegetables on a serving tray" />
+            </div>
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+              <img src="https://placehold.co/400x300/a16a3f/fbfaf6?text=Corporate+Catering"
+                   srcset="https://placehold.co/400x300/a16a3f/fbfaf6?text=Corporate+Catering 400w,
+                           https://placehold.co/800x600/a16a3f/fbfaf6?text=Corporate+Catering 800w"
+                   sizes="(min-width: 768px) 25vw, 50vw"
+                   alt="Colleagues serving themselves from a corporate catering table" />
+            </div>
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="150">
+              <img src="https://placehold.co/400x300/c7dab0/1c2a13?text=Infused+Water+Station"
+                   srcset="https://placehold.co/400x300/c7dab0/1c2a13?text=Infused+Water+Station 400w,
+                           https://placehold.co/800x600/c7dab0/1c2a13?text=Infused+Water+Station 800w"
+                   sizes="(min-width: 768px) 25vw, 50vw"
+                   alt="Guests filling glasses at a fruit-infused water station" />
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= REVIEWS ============================= -->
+      <section class="pp-section pp-section-light" aria-labelledby="catering-reviews-heading">
+        <div class="container">
+          <p class="eyebrow mb-2">Guest Reviews</p>
+          <h2 id="catering-reviews-heading" class="visually-hidden">What event hosts are saying</h2>
+          <div class="row g-4 mt-1">
+            <div class="col-md-6" data-aos="fade-up">
+              <blockquote class="pp-review mb-0">
+                <p class="fst-italic mb-2">&ldquo;Best vegan food in Ottawa. Always fresh and creative!&rdquo;</p>
+                <footer class="blockquote-footer">Sarah M.</footer>
+              </blockquote>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <blockquote class="pp-review mb-0">
+                <p class="fst-italic mb-2">&ldquo;Plant Palette transformed our annual gala. Guests raved about the food.&rdquo;</p>
+                <footer class="blockquote-footer">Jennifer L.</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- ============================= REQUEST A QUOTE ============================= -->
+      <section id="quote" class="pp-cta-strip pp-section text-center" aria-labelledby="quote-heading">
+        <div class="container">
+          <h2 id="quote-heading" class="mb-2">Let's plan your event</h2>
+          <p class="lead mb-4">Tell us the headcount, date and vision &mdash; we'll build a menu around it.</p>
+          <a href="tel:16135550198" class="btn btn-pp-accent btn-lg px-4">Request a Quote</a>
+        </div>
+      </section>
+ 
+    </div>
+ 
+  </main>
+ 
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="pp-footer pp-section">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3">
+          <h2>Visit Us</h2>
+          <address class="fst-normal mb-0">
+            123 Sparks St, Ottawa<br />
+            <a href="tel:16135550198">(613) 555-0198</a>
+          </address>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h2>Hours</h2>
+          <p class="mb-0">Mon&ndash;Fri 11am&ndash;9pm<br />Sat&ndash;Sun 10am&ndash;10pm</p>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h2>Links</h2>
+          <nav aria-label="Footer">
+            <ul class="list-unstyled mb-0">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#catering">Catering</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h2>Follow Us</h2>
+          <ul class="list-unstyled mb-0">
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://google.com" target="_blank" rel="noopener">Google Reviews</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary my-4" />
+      <p class="small mb-0 text-center">&copy; 2025 Plant Palette Ottawa</p>
+    </div>
+  </footer>
+ 
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 600, easing: "ease-out" });
+  </script>
+  <!-- Custom JS (menu filtering) -->
+  <script src="script.js"></script>
+</body>
+</html>
+ 
